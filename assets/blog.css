@@ -1,59 +1,67 @@
 div.container {
+  padding-top: 0;
 }
 
 header.header {
-  background: #563c76;
-  color: white;
-  display: flex;
-  height: 155px;
+  min-height: 170px;
+  background-size: cover;
+  background-position-x: unset;
+  background-position-y: bottom;
 }
 
 div.titles {
-  padding-top: 10px;
+  margin-left: 5px;
 }
 
-div.blog-logo {
-  padding: 16px;
-  float: left;
-}
-
-@media screen and (max-width: 800px) {
+@media (max-width: 1200px) {
   header.header {
-    height: 113px;
+    min-height: 170px;
+    background-size: cover;
+    background-position-x: unset;
+    background-position-y: bottom;
   }
 
   div.titles {
-    padding-top: 14px;
+    padding-top: 1px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header.header {
+    min-height: 150px;
   }
 
-  div.blog-logo img {
-    height: 80px;
+  div.titles {
+    padding-top: 6px;
   }
 
   .blog-title {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .blog-sub {
-    display: none;
-  }
-
-  .mobile-search {
-    margin-top: 20px;
-  }
-
-  div.blog-logo {
-    padding-left: 0px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 400px) {
   header.header {
-    height: 83px;
+    min-height: 100px;
+    padding-right: 0px;
+    padding-left: 2px;
+  }
+
+  main {
+    padding-top: 20px;
+  }
+
+  div.post-stream {
+    padding-top: 0px;
   }
 
   div.titles {
-    padding-top: 8px;
+    padding-top: 1px;
   }
 
   div.blog-logo img {
@@ -61,23 +69,71 @@ div.blog-logo {
   }
 
   .blog-title {
-    font-size: 24px;
+    font-size: 25px;
   }
+
 
   .blog-sub {
     display: none;
   }
 
-  .mobile-search {
-    margin-top: 20px;
+  .post > h2 > a.post-title-link {
+    font-size: 24px;
   }
 
-  div.blog-logo {
-    padding-left: 0px;
+  .post-author {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 }
 
 img.inline-image {
   width: 100%;
   height: auto;
+}
+
+.main-menu {
+  margin-bottom: 30px;
+}
+
+.main-menu .nav-pills > li.active > a {
+  background: #154F20;
+  color: white;
+}
+
+.main-menu .nav-pills > li > a {
+  color: #154F20;
+}
+
+code.inline {
+  color: rgb(36, 41, 46);
+  background-color: rgba(27, 31, 35, 0.05);
+}
+
+a {
+  color: #56bc8d;
+  text-decoration: none;
+}
+a:hover {
+  color: #2b8a69;
+  text-decoration: underline;
+}
+
+div.well {
+  background-color: #f5fbf5;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: #efe;
+}
+
+body {
+  background-color: #cadaca;
 }
