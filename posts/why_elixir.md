@@ -1,3 +1,4 @@
+---
 mage_path: why_elixir.jpg
 created_at: 2017-02-14T21:46:23
 tags:
