@@ -1,67 +1,56 @@
 div.container {
-  padding-top: 0;
 }
 
 header.header {
-  min-height: 170px;
-  background-size: cover;
-  background-position-x: unset;
-  background-position-y: bottom;
+  background: #563c76;
+  color: white;
+  display: flex;
+  height: 155px;
+  margin-bottom: 0;
 }
 
 div.titles {
-  margin-left: 5px;
+  padding-top: 10px;
 }
 
-@media (max-width: 1200px) {
-  header.header {
-    min-height: 170px;
-    background-size: cover;
-    background-position-x: unset;
-    background-position-y: bottom;
-  }
-
-  div.titles {
-    padding-top: 1px;
-    margin-top: 40px;
-  }
+div.blog-logo {
+  padding: 16px;
+  float: left;
 }
 
 @media screen and (max-width: 768px) {
   header.header {
-    min-height: 150px;
+    height: 113px;
   }
 
   div.titles {
-    padding-top: 6px;
+    padding-top: 14px;
+  }
+
+  div.blog-logo img {
+    height: 80px;
   }
 
   .blog-title {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .blog-sub {
-    font-size: 14px;
+    display: none;
+  }
+
+  div.blog-logo {
+    padding-left: 0px;
   }
 }
 
 @media screen and (max-width: 400px) {
   header.header {
-    min-height: 100px;
-    padding-right: 0px;
-    padding-left: 2px;
-  }
-
-  main {
-    padding-top: 20px;
-  }
-
-  div.post-stream {
-    padding-top: 0px;
+    height: 83px;
   }
 
   div.titles {
-    padding-top: 1px;
+    padding-top: 8px;
   }
 
   div.blog-logo img {
@@ -69,28 +58,15 @@ div.titles {
   }
 
   .blog-title {
-    font-size: 25px;
+    font-size: 24px;
   }
-
 
   .blog-sub {
     display: none;
   }
 
-  .post > h2 > a.post-title-link {
-    font-size: 24px;
-  }
-
-  .post-author {
-    font-size: 18px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  h3 {
-    font-size: 18px;
+  div.blog-logo {
+    padding-left: 0px;
   }
 }
 
@@ -104,36 +80,11 @@ img.inline-image {
 }
 
 .main-menu .nav-pills > li.active > a {
-  background: #154F20;
+  background: #563c76;
   color: white;
 }
 
 .main-menu .nav-pills > li > a {
-  color: #154F20;
+  color: #563c76;
 }
 
-code.inline {
-  color: rgb(36, 41, 46);
-  background-color: rgba(27, 31, 35, 0.05);
-}
-
-a {
-  color: #56bc8d;
-  text-decoration: none;
-}
-a:hover {
-  color: #2b8a69;
-  text-decoration: underline;
-}
-
-div.well {
-  background-color: #f5fbf5;
-}
-
-.nav > li > a:focus, .nav > li > a:hover {
-  background-color: #efe;
-}
-
-body {
-  background-color: #cadaca;
-}
