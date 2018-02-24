@@ -1,11 +1,11 @@
-title: Meddling with the code!
-sub_title: λ |> hæskəl erl. &rust (scheme) .js {ruby}
-styles_path: blog.css
-background_image_path: back.jpg
+title: Ivan Aleksandrov 
+sub_title: functional
+styles_path: assets/blog.css
+background_image_path: assets/back.jpg
 social:
   rss: true
-  twitter: ntzvetinov
-  github: meddle0x53
+  twitter: ivaleksandroff
+  github: gunslinnger
   stars_for_blogit: true
 bg:
-  title: Meddling with the код!
+  title: Иван Александров
