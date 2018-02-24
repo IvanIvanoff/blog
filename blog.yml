@@ -1,7 +1,7 @@
 title: Ivan Aleksandrov 
 sub_title: functional
-styles_path: assets/blog.css
-background_image_path: assets/back.jpg
+styles_path: blog.css
+background_image_path: back.jpg
 social:
   rss: true
   twitter: ivaleksandroff
